@@ -4,7 +4,7 @@ import { Link, useLoaderData } from "@remix-run/react";
 import { getPosts } from "~/models/post.server";
 
 type LoaderData = {
-  // this is a handy way to say: "posts is whatever type getPosts resolves to"
+  // this is a handy way to say: "posts is whatever type getPosts resolves to" asdasdasd
   posts: Awaited<ReturnType<typeof getPosts>>;
 };
 
